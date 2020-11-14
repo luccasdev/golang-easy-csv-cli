@@ -16,12 +16,12 @@ Here is a list of the available commands:
 
 ## Usage
 
-- Download and save in specific folder
+- Download CSV file and save in specific folder
 ```bash
 go run main.go --action download --url "http://url.com/file.csv" --download-path "files/file"
 ```
 
-- Write
+- Write CSV file
 ```bash
 go run main.go --action write
 ```
